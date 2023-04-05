@@ -2,8 +2,6 @@
 
 Module5_Fin-Tech_Challenge
 
-# Financial Planning with APIs and Simulations
-
 In this Challenge, you’ll create two financial analysis tools by using a single Jupyter notebook:
 
 Part 1: A financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund.
