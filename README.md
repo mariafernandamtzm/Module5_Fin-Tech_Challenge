@@ -2,27 +2,19 @@
 
 Module5_Fin-Tech_Challenge
 
-In this Challenge, you’ll create two financial analysis tools by using a single Jupyter notebook:
+In this Challenge, we learned how to use APIs. We continued working on the .env files and learned how to obatain information from urls to obtain pricesfor the financial analysis.
 
 Part 1: A financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund.
+Imported pandas, requests, json, numpy, matplotlib, os and dotev. I is importatn to first of all, install pip python-dotev in order to be able to import correctly all the libraries.
+Then created a variable for the monthly income and used the information from the urls for the bitcoin currency and the ethereum currency information. 
+Navigated the JSON response for the btc and the eth. 
+Calculated the Value in US dollars and the total amount for the crypocurrency wallet, using the btc and the eth balance. To obtain the current value of the BTC holding, it was btc_value = btc_balance * btc_price and eth_value = eth_balance * eth_price.
 
 Part 2: A financial planner for retirement. This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations.
 
-You’ll use the information from the Monte Carlo simulation to answer questions about the portfolio in your Jupyter notebook.
 
-## Part 1: Create a Financial Planner for Emergencies
+ We use the information from the Monte Carlo simulation to answer questions about the portfolio in the Jupyter notebook.
 
-### Evaluate the Cryptocurrency Wallet by Using the Requests Library
-
-In this section, you’ll determine the current value of a member’s cryptocurrency wallet. You’ll collect the current prices for the Bitcoin and Ethereum cryptocurrencies by using the Python Requests library. For the prototype, you’ll assume that the member holds the 1.2 Bitcoins (BTC) and 5.3 Ethereum coins (ETH). To do all this, complete the following steps:
-
-1. Create a variable named `monthly_income`, and set its value to `12000`.
-
-2. Use the Requests library to get the current price (in US dollars) of Bitcoin (BTC) and Ethereum (ETH) by using the API endpoints that the starter code supplies.
-
-3. Navigate the JSON response object to access the current price of each coin, and store each in a variable.
-
-4. Calculate the value, in US dollars, of the current amount of each cryptocurrency and of the entire cryptocurrency wallet.
 
 ### Evaluate the Stock and Bond Holdings by Using the Alpaca SDK
 
